@@ -1,103 +1,90 @@
 /* ==UserStyle==
 @name    Whatsup Dracula
 @namespace   0xc0d3d00d
-@version   0.1.1
+@version   0.1
 @homepageURL https://github.com/0xc0d3d00d/whatsup-dracula
 @updateURL   https://raw.githubusercontent.com/0xc0d3d00d/whatsup-dracula/master/whatsup-dracula.user.css
 @license   CC-BY-SA-4.0
 @author    0xc0d3d00d
 @preprocessor uso
 ==/UserStyle== */
+
 @-moz-document domain("whatsapp.com") {
   :root {
     --background-default: #282a36;
     --background-default-hover: #44475a;
     --background-default-active: #44475a;
-    --app-background-stripe: #44475A;
-    
+    --app-background-stripe: #44475a;
     --border-list: #44475a;
-    --panel-background-lighter: #44475A;
-    --panel-background-colored: #44475A;
+    --panel-background-lighter: #44475a;
+    --panel-background-colored: #44475a;
     --panel-background-colored-deeper: #282a36;
-    --panel-background-deep: #44475A;
+    --panel-background-deep: #44475a;
     --panel-background-deeper: #282a36;
     --panel-header-background: #282a36;
-    
-    --search-input-background: #44475A;
-    
-    --conversation-panel-background:#282a36;
+    --search-input-background: #44475a;
+    --conversation-panel-background: #282a36;
     --incoming-background: #6272a4;
     --incoming-background-rgb: rgb(98, 114, 164);
     --outgoing-background: #44475a;
     --outgoing-background-rgb: rgb(68, 71, 90);
     --outgoing-background-deeper: #282a36;
-    --system-message-background:#6272a4;
-    
-    
+    --system-message-background: #6272a4;
     --rich-text-panel-background: #282a36;
     --compose-background: #44475a;
     --compose-border: #44475a;
-    
-    --intro-background: #282A36;
-    
+    --intro-background: #282a36;
     /* modal */
-    --modal-backdrop: rgba(68, 71, 90, 0.85);
-    
+    --modal-backdrop: rgba(68, 71, 90, .85);
     /* drawer */
     --drawer-background: #282a36;
     --drawer-gallery-background: #282a36;
     --drawer-section-background: #44475a;
-    
     /* media viewer */
-    --media-viewer-background: #282A36;
+    --media-viewer-background: #282a36;
     --media-viewer-button-background: #6272a4;
-    
     /* avatar */
     --avatar-background: #282a36;
     --avatar-placeholder-background: #44475a;
     --avatar-placeholder-primary: #f8f8f2;
-    
     /* dropdown */
     --dropdown-background: #44475a;
     --dropdown-background-hover: #6272a4;
-    
     /* battery warning */
-    --butterbar-battery-background: #ff5555;
-    
+    --butterbar-battery-background: #f55;
     /* misc */
     --button-round-background: #6272a4;
     --button-alternative-background: #6272a4;
     --empty-state-background: #44475a;
-    
     --thumb-border-active: #6272a4;
     --input-border-active: #6272a4;
-    
     /* font colors */
     --primary: #f8f8f2;
-    --primary-title: #8BE9FD;
+    --primary-title: #8be9fd;
     --primary-strong: #f1fa8c;
     --primary-stronger: #f1fa8c;
-    --secondary-stronger: rgba(98,114,164,0.8);
-    --secondary: rgba(98,114,164,0.8);
-    --secondary-lighter: rgba(98,114,164,0.8);
-    --icon-strong:#f8f8f2;
-    --icon-lighter:#f8f8f2;
+    --secondary-stronger: rgba(98, 114, 164, .8);
+    --secondary: rgba(98, 114, 164, .8);
+    --secondary-lighter: rgba(98, 114, 164, .8);
+    --icon-strong: #f8f8f2;
+    --icon-lighter: #f8f8f2;
     --intro-secondary: #f8f8f2;
     --message-primary: #f8f8f2;
     --system-message-text: #f8f8f2;
     --shadow-rgb: rgb(189, 147, 249);
-    --danger: #ff5555;
+    --danger: #f55;
     --link: #8be9fd;
     --button-alternative: #f8f8f2;
-    
     --teal: #bd93f9;
     --teal-lighter: #ff79c6;
   }
+
   body {
-    background-color: #44475A;
+    background-color: #44475a;
     background-image: none;
     color: #f8f8f2;
   }
+
   .two {
     border: solid 3px #282a36;
   }
