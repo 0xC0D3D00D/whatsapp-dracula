@@ -1,13 +1,8 @@
+# Whatsup Dracula
 <p align="center">
   <br>
   <a href="https://github.com/0xc0d3d00d/whatsup-dracula/tags">
     <img src="https://img.shields.io/github/tag/0xc0d3d00d/whatsup-dracula.svg?label=tag" alt="Tag">
-  </a>
-  <a href="https://github.com/0xc0d3d00d/whatsup-dracula/stargazers">
-    <img src="(https://githubbadges.com/star.svg?user=0xC0D3D00D&repo=whatsup-dracula&style=flat&color=fff&background=007ec6" alt="Star">
-  </a>
-  <a href="http://github.com/0xc0d3d00d/whatsup-dracula/fork">
-    <img src="https://githubbadges.com/fork.svg?user=0xC0D3D00D&repo=whatsup-dracula&style=flat&color=fff&background=007ec6" alt="Fork">
   </a>
   <a href="https://david-dm.org/0xc0d3d00d/whatsup-dracula?type=dev">
     <img src="https://img.shields.io/david/dev/0xc0d3d00d/whatsup-dracula.svg?label=%20devDependencies%20" alt="devDependencies">
