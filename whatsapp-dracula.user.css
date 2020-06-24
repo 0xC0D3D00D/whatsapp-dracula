@@ -1,14 +1,14 @@
 /* ==UserStyle==
-@name    Whatsup Dracula
+@name    Whatsapp Dracula
 @namespace   0xc0d3d00d
 @version   0.1.1
-@homepageURL https://github.com/0xc0d3d00d/whatsup-dracula
-@updateURL   https://raw.githubusercontent.com/0xc0d3d00d/whatsup-dracula/master/whatsup-dracula.user.css
+@homepageURL https://github.com/0xc0d3d00d/whatsapp-dracula
+@updateURL   https://raw.githubusercontent.com/0xc0d3d00d/whatsapp-dracula/master/whatsapp-dracula.user.css
 @license   CC-BY-SA-4.0
 @author    0xc0d3d00d
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document domain("whatsapp.com") {
+@-moz-document domain("web.whatsapp.com") {
   :root {
     --background-default: #282a36;
     --background-default-hover: #44475a;
@@ -31,12 +31,14 @@
     --outgoing-background: #44475a;
     --outgoing-background-rgb: rgb(68, 71, 90);
     --outgoing-background-deeper: #282a36;
-    --system-message-background:#6272a4;
+    --system-message-background: #6272a4;
+    --bubble-meta: #8be9fd;
     
     
     --rich-text-panel-background: #282a36;
     --compose-background: #44475a;
     --compose-border: #44475a;
+    --compose-primary: #f8f8f2;
     
     --intro-background: #282A36;
     

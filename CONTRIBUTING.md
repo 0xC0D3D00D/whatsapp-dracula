@@ -1,4 +1,4 @@
-# Contributing to Whatsup Dracula
+# Contributing to Whatsapp Dracula
 
 1. [Getting Involved](#getting-involved)
 2. [How To Report style issues](#how-to-report-style-issues)
@@ -7,7 +7,7 @@
 
 ## Getting Involved
 
-There are a number of ways to get involved with the development of this Whatsup Dracula theme. Even if you've never contributed to an Open Source project before, we're always looking for help identifying missing styles or other issues.
+There are a number of ways to get involved with the development of this Whatsapp Dracula theme. Even if you've never contributed to an Open Source project before, we're always looking for help identifying missing styles or other issues.
 
 ## How to Report Style issues
 
@@ -66,7 +66,7 @@ If you don't know CSS very well and have found a missing style, please include a
 
 * Try to wrap lines at around 80 characters.
 * This style does not have a size limit, but:
-  * Don't add any image URI's to the CSS; instead add the image into the `/images` directory; then point to using the following url: `http://0xc0d3d00d.github.io/whatsup-dracula/images/{my-image.png}`.
+  * Don't add any image URI's to the CSS; instead add the image into the `/images` directory; then point to using the following url: `http://0xc0d3d00d.github.io/whatsapp-dracula/images/{my-image.png}`.
   * If possible, reduce any added selectors. Remember that the style likely has an `!important` flag to override default styling, so a selector starting from the body isn't always necessary.
   * Don't add any inline comments. If you want to make a comment, add it as a note in the commit.
   * If your CSS definition already exists within the style, do not add it again! Add your selector to the existing definition.
@@ -77,17 +77,17 @@ If you don't know CSS very well and have found a missing style, please include a
 
 ## Getting Started
 
-* [Download](https://github.com/0xc0d3d00d/whatsup-dracula/archive/master.zip), [fork](https://github.com/0xc0d3d00d/whatsup-dracula/fork) or clone this repository.
+* [Download](https://github.com/0xc0d3d00d/whatsapp-dracula/archive/master.zip), [fork](https://github.com/0xc0d3d00d/whatsapp-dracula/fork) or clone this repository.
 * Use [node.js](http://nodejs.org/) to run `npm install`.
-* Make any changes to the `whatsup-dracula.user.css` file and save.
+* Make any changes to the `whatsapp-dracula.user.css` file and save.
 
 ### Build & test
 
-* Create & change into a new branch of your local Whatsup Dracula repository.
+* Create & change into a new branch of your local Whatsapp Dracula repository.
 * Open the style in the Stylus editor, and make sure to have "live preview" checked for testing.
 * Once you are satisfied with the changes, select all the CSS (<kbd>Ctrl</kbd> + <kbd>a</kbd>), copy (<kbd>Ctrl</kbd> + <kbd>c</kbd>) then paste (<kbd>Ctrl</kbd> + <kbd>v</kbd>) it into your editor.
 * Run `npm test` to test the CSS changes.
-* Now you can add and commit the changes of the `whatsup-dracula.user.css` file to your fork's branch.
+* Now you can add and commit the changes of the `whatsapp-dracula.user.css` file to your fork's branch.
 * If you haven't already contributed, then run `npm run authors` to add your name to our list of contributors :smile:
 * Push the changes to your branch, then submit a pull request.
 * And thanks again for contributing!
