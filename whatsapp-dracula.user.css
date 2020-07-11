@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name    Whatsapp Dracula
 @namespace   0xc0d3d00d
-@version   0.1.2
+@version   0.2.0
 @homepageURL https://github.com/0xc0d3d00d/whatsapp-dracula
 @updateURL   https://raw.githubusercontent.com/0xc0d3d00d/whatsapp-dracula/master/whatsapp-dracula.user.css
 @license   CC-BY-SA-4.0
@@ -23,6 +23,7 @@
     --panel-background-deeper: #282a36;
     --panel-header-background: #282a36;
     --search-input-background: #44475A;
+    --search-container-background: #282A36;
     /* conversation */
     --conversation-panel-background: #282a36;
     --incoming-background: #6272a4;
@@ -35,6 +36,7 @@
     /* compose */
     --rich-text-panel-background: #282a36;
     --compose-background: #44475a;
+    --compose-input-primary: #44475a;
     --compose-border: #44475a;
     --compose-primary: #f8f8f2;
     /* intro */
