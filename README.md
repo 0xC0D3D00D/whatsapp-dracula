@@ -20,7 +20,7 @@ A userstyle extension is required, common ones include:
 
 Then:
 
-📦 [Install the usercss](https://github.com/0xc0d3d00d/whatsapp-dracula/raw/master/quora-dark.user.css). It supports automatic updates.<br>
+📦 [Install the usercss](https://github.com/0xc0d3d00d/whatsapp-dracula/raw/master/whatsapp-dracula.css). It supports automatic updates.<br>
 
 ## Contributions
 
